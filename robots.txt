@@ -1,2 +1,6 @@
 User-agent: *
 Allow: /
+
+# Disallow source files
+Disallow: /ts/
+Disallow: /node_modules/
