@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Games</title>
+    <style>
+        body {
+            background: #008080;
+            font-family: Tahoma, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            width: 600px;
+            margin: 50px auto;
+            background: #c0c0c0;
+            border: 2px solid;
+            border-color: #ffffff #808080 #808080 #ffffff;
+            box-shadow: 2px 2px 10px rgba(0,0,0,0.3);
+        }
+        .title-bar {
+            background: linear-gradient(90deg, #000080, #1084d0);
+            color: white;
+            padding: 4px 8px;
+            font-weight: bold;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .title-bar-text {
+            font-size: 14px;
+        }
+        .title-bar-controls button {
+            width: 16px;
+            height: 14px;
+            font-size: 10px;
+            line-height: 10px;
+            background: #c0c0c0;
+            border: 1px solid;
+            border-color: #ffffff #808080 #808080 #ffffff;
+            cursor: pointer;
+            margin-left: 2px;
+        }
+        .content {
+            padding: 20px;
+        }
+        h1 {
+            color: #000080;
+            border-bottom: 2px groove #c0c0c0;
+            padding-bottom: 10px;
+            margin-top: 0;
+            font-size: 18px;
+        }
+        .nav-link {
+            color: #000080;
+            text-decoration: none;
+            font-size: 12px;
+            margin-bottom: 20px;
+        }
+        .nav-link:hover {
+            text-decoration: underline;
+        }
+        .game-list {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        .game-item {
+            border: 2px solid;
+            border-color: #808080 #ffffff #ffffff #808080;
+            padding: 15px;
+            background: #dfdfdf;
+        }
+        .game-title {
+            font-weight: bold;
+            color: #000080;
+            font-size: 14px;
+        }
+        .game-desc {
+            margin: 10px 0;
+            font-size: 12px;
+            color: #404040;
+        }
+        .game-link {
+            display: inline-block;
+            padding: 4px 15px;
+            background: #c0c0c0;
+            color: #000;
+            text-decoration: none;
+            font-size: 12px;
+            border: 2px solid;
+            border-color: #ffffff #808080 #808080 #ffffff;
+        }
+        .game-link:hover {
+            background: #d4d0c8;
+        }
+        .no-games {
+            padding: 30px;
+            text-align: center;
+            border: 2px inset #c0c0c0;
+            color: #808080;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="title-bar">
+            <div class="title-bar-text">Games - My Home Page</div>
+            <div class="title-bar-controls">
+                <button>_</button>
+                <button>X</button>
+            </div>
+        </div>
+        <div class="content">
+            <a href="index.html" class="nav-link">&lt; Back to Home</a>
+            <h1>My Games</h1>
+
+            <div class="game-list">
+                <div class="game-item">
+                    <div class="game-title">Game Title Here</div>
+                    <div class="game-desc">A short description of your game goes here. Describe what the game is about and what makes it fun to play.</div>
+                    <a href="#" class="game-link">Play Game</a>
+                </div>
+
+                <div class="game-item">
+                    <div class="game-title">Another Game</div>
+                    <div class="game-desc">Description of another game you've created. Include details about gameplay, features, or what platform it's available on.</div>
+                    <a href="#" class="game-link">Play Game</a>
+                </div>
+
+                <div class="no-games">
+                    More games coming soon!
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
