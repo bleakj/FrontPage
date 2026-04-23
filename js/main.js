@@ -121,6 +121,7 @@ const pages = {
                 <div class="about-section">
                     <h2>Contact</h2>
                     <p class="about-text">Feel free to reach out at Balcom@Gmail.com</p>
+                    <p class="about-text" style="margin-top: 15px;"><a href="privacy-policy.html" target="_blank" style="color: #000060;">Privacy Policy</a></p>
                 </div>
             </div>
         `
